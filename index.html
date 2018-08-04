@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>FIO - Faculdades Integradas de Ourinhos</title>
+    <link rel="icon" href="imagens/favicon.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-social/assets/css/font-awesome.css">
+    <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- Navegação-->
+    <nav class="navbar  navbar-fixed-top  navbar-inverse navbar-transparente">
+      <div class="container">
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle  collapsed"
+                  data-toggle="collapse" data-target="#barra-navegacao">
+
+            <!-- Isso é para leitores de tela. Recurso para acessibilidade-->
+            <span class="sr-only">alternar navegação</span> 
+                  
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">
+            <span class="img-logo">FIO</span>
+            
+          </a>
+          
+        </div>
+
+        <!-- Navbar-->
+        <div class="collapse  navbar-collapse" id="barra-navegacao">
+          <ul class="nav  navbar-nav  navbar-right">
+
+            <li>
+              <a href="index.html">
+                <i class="glyphicon   glyphicon-home" title="Página principal" id="icone-home">  
+                </i>
+              </a>
+            </li>
+
+            <li class="divisor" role="separator"></li>
+            <li> <a href="#mapa-fio">Sobre</a></li>
+            <li> <a href="#icone-atendimento">Contato</a></li>
+            <li> <a href="#servicos-segunda-parte">Redes Sociais</a></li>
+            <li> <a href="#">Biblioteca</a></li>
+            
+            <li class="divisor" role="separator"></li>
+            <li> <a href="#">Aluno</a></li>
+            <li> <a href="#">Professor</a></li>
+            <li> <a href="#">Coordenador</a></li>
+
+          </ul>
+          
+        </div>
+        
+      </div> <!-- /container -->
+    </nav> <!-- /bar -->
+
+    <div class="capa" id="topo-capa">
+      
+      <div class="texto-capa">
+
+        <img class="img-mec" src="imagens/conceito-mec.png" alt="Logo Conceito Mec">
+        <h1>Transformar o Conhecimento em Qualidade de Vida...</h1>
+        <p>...É o que nos motiva!</p>
+
+        <nav class="navbar navbar-default navbar-static-top" id="nav-menu-static">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                      data-target="#nav-menu-collapse" aria-expanded="false">
+                
+                <span class="sr-only">alternar navegação</span>
+               
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+            
+            </div> <!-- /navbar-header -->
+
+             <div class="collapse navbar-collapse" id="nav-menu-collapse">
+
+                <ul class="nav navbar-nav" id="menu">
+
+                  <li class="dropdown">
+                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"   aria-expanded="false">Graduação 
+
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" id="item-menu">
+                      
+                      <li><a href="graduacao/administracao.html">Administração</a></li>
+                      <li><a href="#">Sistemas de Informação</a></li>
+                      <li><a href="#">Medicina Veterinaria</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Increver-se</a></li>
+                    
+                    </ul>
+
+                  </li>
+                </ul> <!-- /menu-graduacao -->
+
+                <ul class="nav navbar-nav" id="menu">
+
+                  <li class="dropdown">
+                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"   aria-expanded="false">Pós Graduação 
+
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" id="item-menu">
+                      
+                      <li><a href="#">Ambiental</a></li>
+                      <li><a href="#">Direito</a></li>
+                      <li><a href="#">Educação</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Increver-se</a></li>
+                    
+                    </ul>
+
+                  </li>
+                </ul> <!-- /menu-pos-graduacao -->
+
+                <ul class="nav navbar-nav" id="menu">
+
+                  <li class="dropdown">
+                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"   aria-expanded="false">EAD 
+
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" id="item-menu">
+                      
+                      <li><a href="#">Sobre o NTEA</a></li>
+                      <li><a href="#">Ambiente Conhecer</a></li>
+                      <li><a href="#">Cursos Oferecidos</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Fale Conosco</a></li>
+                    
+                    </ul>
+
+                  </li>
+                </ul> <!-- /menu-ead -->
+
+                <ul class="nav navbar-nav" id="menu">
+
+                  <li class="dropdown">
+                    
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"   aria-expanded="false">Eventos 
+
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" id="item-menu">
+                      
+                      <li><a href="#">Encerrados</a></li>
+                      <li><a href="#">Em Andamento</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Increver-se</a></li>
+                    
+                    </ul>
+
+                  </li>
+                </ul> <!-- /menu-eventos -->
+
+             </div> <!-- /navbar-collapse -->
+            
+          </div><!-- /container-fluid -->
+        </nav> <!-- /nav-static-top -->
+
+      </div> <!-- /texto-capa -->
+    </div> <!-- /capa -->
+
+    <!-- Conteudo -->
+    <section id="servicos">
+      <div class="container">
+        <div class="row">
+
+          <!-- Informações-->
+          <div class="col-md-4">
+
+            <div class="row">        
+                
+                <div id="carousel-index1" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-index1" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-index1" data-slide-to="1"></li>
+                      <li data-target="#carousel-index1" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="imagens-banner/bsi-capa.jpg" alt="Imagem do curso de BSI" />
+                        <div class="carousel-caption">
+                          <span>BSI</span>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img src="imagens-banner/adm-capa.jpg" 
+                          alt="Imagem do curso de Administração" />
+                        <div class="carousel-caption">
+                          <span>Administração</span>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img src="imagens-banner/med-capa1.jpg" 
+                          alt="Imagem do curso de Medicina Veterinaria" />
+                        <div class="carousel-caption">
+                          <span>Medicina</span>
+                        </div>
+                      </div>
+                      
+                    </div> <!-- /carousel-inner -->
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-index1" role="button" 
+                       data-slide="prev">
+
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-index1" role="button" 
+                       data-slide="next">
+                      
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+
+            </div> <!-- /row carousel-index1-->
+
+            <div class="row">
+              <div id="texto-borda">
+                <h3>Noticias</h3>
+              </div>
+            </div> <!-- /row texto borda-->
+
+          </div> <!--/Informações Parte 1 -->
+
+          <!-- Informações Parte 2-->
+          <div class="col-md-4">
+            <div class="row">
+              <div id="carousel-index2" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-index2" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-index2" data-slide-to="1"></li>
+                      <li data-target="#carousel-index2" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="item active">
+                        <img src="imagens-banner/med-capa1.jpg"/>
+                        <div class="carousel-caption">
+                          <span>Medicina</span>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img src="imagens-banner/adm-capa.jpg"/>
+                        <div class="carousel-caption">
+                          <span>Administração</span>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img src="imagens-banner/bsi-capa.jpg"/>
+                        <div class="carousel-caption">
+                          <span>BSI</span>
+                        </div>
+                      </div>
+                      
+                      
+                    </div> <!-- /carousel-inner -->
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-index2" role="button" 
+                       data-slide="prev">
+                      
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-index2" role="button" 
+                       data-slide="next">
+                      
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+              
+            </div> <!-- /row carousel-index2-->
+
+            <div class="row">
+              <div id="texto-borda">
+                
+                <h3>Eventos</h3>
+                
+              </div>
+            </div> <!-- /row texto borda-->
+
+          </div> <!--/Informações Parte 2 -->
+
+          <!--/Informações Parte 3 -->
+          <div class="col-md-4">
+            <div class="row">
+              <div id="carousel-index3" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-index3" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-index3" data-slide-to="1"></li>
+                      <li data-target="#carousel-index3" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+
+                      <div class="item active">
+                        <img src="imagens-banner/adm-capa.jpg"/>
+                        <div class="carousel-caption">
+                          <span>Administração</span>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img src="imagens-banner/med-capa1.jpg"/>
+                        <div class="carousel-caption">
+                          <span>Medicina</span>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <img src="imagens-banner/bsi-capa.jpg"/>
+                        <div class="carousel-caption">
+                          <span>BSI</span>
+                        </div>
+                      </div>
+                      
+                      
+                    </div> <!-- /carousel-inner -->
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-index3" role="button" 
+                       data-slide="prev">
+                      
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-index3" role="button" 
+                       data-slide="next">
+
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+              
+            </div> <!-- /row carousel-index3-->
+            
+            <div class="row">
+              <div id="texto-borda">
+                
+                <h3>Vestibular</h3>
+                
+              </div>
+            </div> <!-- /row texto borda-->
+
+          </div> <!--/Informações Parte 3 -->
+          
+        </div> <!-- /row principal -->
+      </div> <!-- /container-->
+    </section> <!-- /section servicos-->
+
+    <!-- Conteudos Parte 2-->
+    <section id="servicos-segunda-parte">
+      <div class="container-fluid">
+        <div class="row">
+
+          
+          <div class="col-md-12" id="video-youtube">
+            <div class="row">              
+              
+              <div id="texto-titulo-segunda-parte">
+                
+                <h3>Vídeos</h3>
+                
+              </div>
+
+              
+            </div> <!-- /row-->
+
+          </div> <!-- /texto-videos--> 
+
+          
+          <div class="col-md-4" id="servicos-segunda-parte-video">
+            <div class="row">
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9" id="video">
+              
+                <iframe src="https://www.youtube.com/embed/IAnzAWt5tCI" 
+                        frameborder="0" allowfullscreen></iframe>
+                        
+              </div> <!-- /video 1-->
+            </div> <!-- /row video 1-->
+            
+          </div> <!-- /lado A-->
+
+          <div class="col-md-4" id="servicos-segunda-parte-video">
+            <div class="row">
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9" id="video">
+                    
+                <iframe src="https://www.youtube.com/embed/95Tgg-VN2mU" 
+                        frameborder="0" allowfullscreen></iframe>
+
+              </div> <!-- /video 2-->
+            </div> <!-- /row video 2-->
+
+          </div> <!-- /lado B-->
+
+          <div class="col-md-4" id="servicos-segunda-parte-video">
+            <div class="row">
+              <!-- 16:9 aspect ratio -->
+              <div class="embed-responsive embed-responsive-16by9" id="video">
+                    
+                <iframe src="https://www.youtube.com/embed/ugcpIeZ0XvM" 
+                        frameborder="0" allowfullscreen></iframe>
+
+              </div> <!-- /video 3-->
+            </div> <!-- /row video 3-->
+
+          </div> <!-- /lado C-->
+
+          <div class="col-md-12" id="post-facebook">
+          
+            <div class="row">
+                
+              <div id="texto-titulo-segunda-parte">
+                <h3>Publicações Facebook</h3>
+                
+              </div>
+              
+            </div> <!-- /row titulo-->
+
+            <iframe id="post-um" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaculdadesfioourinhos%2Fposts%2F713512202163047%3A0&width=500&show_text=true&height=564&appId" scrolling="no" frameborder="0" allowTransparency="true">
+            </iframe>
+
+            <iframe id="post-dois" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaculdadesfioourinhos%2Fposts%2F710177132496554%3A0&width=500" 
+            scrolling="no" frameborder="0" allowTransparency="true">
+            </iframe>
+
+            <iframe id="post-tres" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ffaculdadesfioourinhos%2Fposts%2F705821109598823%3A0&width=500" 
+            scrolling="no" frameborder="0" allowTransparency="true">
+            </iframe>
+          
+          
+          </div> <!-- /post principal-->      
+        </div> <!-- /row principal -->
+        
+        <div class="col-md-12" id="mapa-fio">
+          <div class="row">
+            <div id="texto-titulo-segunda-parte">
+              <h3>Venha nos conhecer!</h3>
+              
+            </div>
+            
+          </div>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14698.664387788569!2d-49.91059395!3d-22.925683499999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6326cee64455db1!2sFaculdades+Integradas+de+Ourinhos!5e0!3m2!1spt-BR!2sbr!4v1487877952698" frameborder="0"  allowfullscreen>
+            
+          </iframe>
+             
+        </div> <!-- /mapa-fio-->
+          
+        
+      </div> <!-- /container -->
+    </section> <!-- /Conteudos Parte 2-->
+
+    <!-- Conteudos Parte 3-->
+    <section id="servico-terceira-parte">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div class="col-md-12">
+            
+            <h3 id="texto-avisos-importantes">Avisos Importantes</h3>  
+            <h4 id="texto-subtitulo-avisos">
+              Confira aqui avisos importantes da direção e das secretarias das FIO.</h4>
+          
+          </div> <!-- /col-md-12 texto avisos-->
+        </div> <!-- /row principal-->
+      </div> <!-- /container-->
+      
+      <div class="container">
+          
+        <div class="row" style="margin: 2px;">
+          <div class="col-md-4" id="primeiro-bloco-avisos">
+              <h4>Edital Processo Seletivo - Vestibular Engenharia de Produção</h4>
+              <p>03 de Novembro, 2015</p>
+              
+              <a href="#" target="_blank">
+                Leia Mais
+              </a>
+          </div>
+          <div class="col-md-4" id="primeiro-bloco-avisos">
+              <h4>Curso de Extensão em Libras</h4>
+              <p>03 de Novembro, 2015</p>
+
+              <a href="#">
+                Leia Mais
+              </a>
+          </div>
+          <div class="col-md-4" id="primeiro-bloco-avisos">
+              <h4>Curso de Extensão em Libras</h4>
+              <p>03 de Novembro, 2015</p>
+
+              <a href="#">
+                Leia Mais
+              </a>
+          </div>
+
+        </div>
+
+        <div class="row" style="margin: 2px;">
+          <div class="col-md-4" id="primeiro-bloco-avisos">
+              <h4>Devolução da taxa de diploma</h4>
+              <p>03 de Novembro, 2015</p>
+              
+              <a href="#" target="_blank">
+                Leia Mais
+              </a>
+          </div>
+          <div class="col-md-4" id="primeiro-bloco-avisos">
+              <h4>Rematrícula Online</h4>
+              <p>03 de Novembro, 2015</p>
+
+              <a href="#">
+                Leia Mais
+              </a>
+          </div>
+          <div class="col-md-4" id="primeiro-bloco-avisos">
+              <h4>Sobre requerimentos e outros avisos</h4>
+              <p>03 de Novembro, 2015</p>
+
+              <a href="#">
+                Leia Mais
+              </a>
+          </div>
+        </div>
+
+      </div>
+          
+
+      
+    </section> <!-- /conteudo parte 3-->
+
+    <div id="exibir-backtopo">
+      <a href="#topo-capa" id="topo">
+        <i class="fa  fa-arrow-up"></i>
+      </a>  
+    </div>
+    
+    <!-- Rodape -->
+    <footer id="rodape">
+
+      <div class="container-fluid">
+            
+        <div class="row">
+
+          <div class="col-md-2">
+             <span class="img-logo">FIO</span>
+             
+          </div> <!-- /col-md-2 -->
+
+          <div class="col-md-10" id="rodape-atendimento">
+            <h4>Atendimento</h4>
+            
+            <div class="row">
+          
+              <span>
+                <i class="glyphicon  glyphicon-earphone" id="icone-atendimento"></i>
+                (14) 3302-6400 / 0800 770 8788    
+              </span>  
+            
+            </div> <!-- /row -->
+            
+            <div class="row">
+              
+              <a href="http://fio.edu.br/ouvidoria/" target="_blank">
+                <i class="glyphicon  glyphicon-bullhorn" id="icone-atendimento"></i>
+                Ouvidoria
+              </a>     
+              
+            </div> <!-- /row -->
+          </div> <!-- /col-md-10-->
+          
+        </div><!-- /row -->
+
+        <div class="row">
+          <div class="col-md-12" id="logo-parceiros">
+              <ul>
+                
+                <li class="imagem-logo-rodape"> 
+                  <a href="#" target="_blank">
+                    <img src="imagens/SEMESP.png"/>
+                  </a>
+                </li>
+                
+                <li class="imagem-logo-rodape"> 
+                  <a href="#" target="_blank">
+                    <img src="imagens/CIEE.png"/>
+                  </a>
+                </li>
+
+                <li class="imagem-logo-rodape"> 
+                  <a href="#" target="_blank">
+                    <img src="imagens/logomarca2.png"/>
+                  </a>
+                </li>  
+              </ul>             
+          </div> <!-- /col-md-6-->
+        </div> <!-- /row logo-->
+        
+      </div><!-- /container -->
+      
+    </footer><!-- /footer -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- javaScript fio-->
+    <script src="fio-js/fio.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

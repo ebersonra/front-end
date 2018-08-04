@@ -1,0 +1,701 @@
+/*============================= Layout =============================*/
+html, body, .capa {
+
+	height: 100%;
+}
+body {
+
+	background: url('imagens/capa1.png') no-repeat center center,
+				url('imagens/ruido.png'),
+				linear-gradient(50deg,#FF4500,#4169E1);
+	
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+/* +++ Barra de Navegação +++*/
+.img-logo {
+
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand {
+
+	padding: 5px 15px;
+}
+
+.divisor {
+
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.divisor-avisos-importantes {
+
+
+	width: 240px;
+	margin-left: 18px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 0.1em;
+	background: #e3e3e3;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a {
+
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+
+	color: #FF4500;
+	
+}
+
+#servico-terceira-parte a {
+
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 14px;
+	padding: 5px; 
+	border-radius: 5px; 
+	background: #D98719;
+}
+#servico-terceira-parte a:hover {
+
+	background: #FF4500;
+	transition: background 0.4s, color 0.4s;
+}
+
+#rodape-atendimento {
+
+	border: 2px solid white;
+	padding-top: 15px;
+	padding-bottom: 22px;
+}
+
+#rodape-atendimento span {
+	
+	font-size: 0.9em;
+	color: white;
+	font-weight: 800;
+	padding-left: 15px;
+	margin-left: 5px;
+
+}
+
+#rodape-atendimento a {
+
+	font-size: 10px;
+	color: white;
+	font-weight: 800;
+	text-decoration: none;
+	margin-left: 5px;
+	padding-left: 15px;
+
+}
+#rodape-atendimento a:hover {
+
+	color: #000;
+	
+}
+
+#icone-home {
+
+	font-size: 1.1em;
+
+	
+}
+
+/* Barra Navegação Menu Static */
+#nav-menu-static {
+
+	border: none;
+	/*background: #FF8C00;*/
+	background: rgba(255, 69, 0, 0.6);
+	margin-top: 100px;
+
+
+}
+
+#menu>li>a {
+
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+#item-menu>li>a {
+
+	color: black;
+}
+
+#menu>li>a:hover {
+
+	background-color: #FF8C00;
+	transition: background 0.4s, color 0.4s;
+}
+
+#item-menu>li>a:hover {
+
+	text-transform: uppercase;
+	font-weight: 800;
+	background-color: #FF8C00;
+	transition: background 0.4s, color 0.4s;
+}
+
+.icon-bar {
+
+	border: 1px solid white;
+}
+
+/* +++ Imagen de Capa +++*/
+.img-mec {
+
+	
+}
+.capa {
+
+	display: table;
+	width: 100%;
+
+}
+
+#topo-capa {
+	
+
+}
+.texto-capa {
+
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+.texto-capa p {
+
+	text-align: center;
+	color: #FFF;
+	font-size: 25px;
+	font-weight: 800;
+	margin-bottom: 45px;
+
+}
+
+/* +++ Botões +++*/
+.btn-custom {
+
+	
+	color: white;
+	border-radius: 250px;
+	-webkit-border-radius: 250px;
+	-moz-border-radius: 250px;
+	padding: 10px 35px;
+	
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s; 
+}
+
+/* +++ Icones rede sociais +++*/
+.btn-facebook {
+
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 430px;
+    background-color: #3b5998;
+    font-size: 1.2em;
+    transition: background 0.4s, color 0.4s;
+    
+}
+.btn-facebook:hover {
+
+	border: 1px solid white;
+    background-color: #4c70ba;
+}
+
+.btn-youtube {
+	
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 480px;
+	background-color: #e52d27;
+	color: white;
+	font-size: 1.2em;
+	transition: background 0.4s, color 0.4s;
+	
+}
+.btn-youtube:hover {
+
+	border: 1px solid white;
+	background-color: #ea5955;
+	color: white;
+}
+
+/* +++ Seção Serviços +++*/
+#servicos {
+
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+#carousel-index1 {
+
+	margin: 5px;
+}
+#carousel-index2 {
+
+	margin: 5px;
+}
+#carousel-index3 {
+
+	margin: 5px;
+}
+
+#texto-borda {
+
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.16);
+	margin: 10px;
+	padding-top: 1px;
+	padding-left: 4px;
+	padding-bottom: 1px;
+	border-left: 2px solid #FF4500;	
+}
+
+.borda-texto-carousel {
+
+	
+}
+
+#texto-conteudo-parte2 {
+	
+	margin: 5px;
+	text-align: center;
+}
+
+/* +++ Seção Serviços Segunda Parte +++*/
+#servicos-segunda-parte {
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos-segunda-parte-video {
+
+	padding-top: 15px;
+	padding-bottom: 10px;
+
+}
+
+#texto-titulo-segunda-parte {
+
+	text-align: center;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	box-shadow: 2px 2px 2px rgba(0,0,0, 0.18);
+}
+
+#video {
+
+	margin: 5px;
+	border-bottom: 3px solid red;
+
+}
+
+.borda-texto-videos {
+
+	width: 80px;
+	border-bottom: 3px solid #FF4500;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+.borda-texto-post {
+
+	width: 230px;
+	border-bottom: 3px solid #FF4500;
+	position: relative;
+	padding-bottom: 3px;
+}
+
+#post-facebook iframe {
+
+	width: 360px;
+	height: 580px;
+	background: white;
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	border-top: 3px solid #3b5998;
+	overflow:hidden;
+
+}
+
+#mapa-fio {
+
+	position: relative;
+	padding: 5px;	
+}
+#mapa-fio iframe {
+
+	height: 650px;
+	width: 100%;
+	padding-top: 15px;
+
+}
+
+.borda-texto-mapa {
+
+	width: 210px;
+	border-bottom: 3px solid #FF4500;
+	position: relative;
+	padding-bottom: 3px;
+
+}
+
+/* +++ Seção Serviços Terceira Parte +++*/
+#servico-terceira-parte {
+
+	background-size: 1366px, 768px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#primeiro-bloco-avisos {
+
+	box-sizing: border-box;
+
+	background-color: #FFF;
+	border-top: 3px solid #4169E1;
+	margin-top: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 8px 10px;
+
+	width: 280px;
+	
+
+	
+}
+
+#borda-noticia-terceira-parte1 {
+	
+	
+}
+
+#texto-avisos-importantes {
+
+	color: #FFF;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	
+	box-shadow: 2px 2px 2px rgba(0,0,0, 0.18);
+
+}
+.borda-texto-avisos {
+
+}
+
+#texto-subtitulo-avisos {
+	
+	color: #FFF;
+	padding-top: 10px;
+	 
+
+}
+
+/* +++ Rodape +++*/
+footer {
+
+	background: linear-gradient(40deg,#FF4500,#4169E1);
+	padding: 50px 0px 20px 0px;
+	position: relative;
+	
+}
+
+.footer-info {
+
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.8);
+	/*background: rgba(255, 69, 0, 0.8);*/
+	/*background: rgba(65, 105, 255, 0.8);*/
+	border: none;
+	z-index: 9999;
+	height: 80px;
+	
+	width: 100%;
+	position: fixed;
+	transition: all 2s;
+}
+.footer-info.in {
+
+	bottom: 0;
+}
+
+#logo-parceiros {
+
+	margin-top: 10px;
+	padding-top: 22px;
+	padding-bottom: 42px;
+	text-align: center;
+}
+
+#logo-parceiros a {
+	
+	background: none;
+}
+
+#topo {
+
+	display: block;
+	z-index: 99999;
+	position: fixed;
+	right: 20px;
+	bottom: 100px;
+	padding: 15px 20px;
+	background-color: #FF4500;
+	color: #4169E1;
+	font-size: 24px;
+}
+
+#topo .fa {
+
+	display: inline-block;
+	text-rendering: auto;
+}
+/* Imagen rodape*/
+.imagem-logo-rodape {
+
+	border: 1px solid white;
+	
+	vertical-align: middle;
+
+	margin-left: 5px;
+	margin-bottom: 22px;
+	display: inline-block;
+	
+}
+
+#icone-atendimento {
+
+	position: relative;
+	color: white;
+	margin: 5px 10px 5px 0px;
+	font-size: 20px;
+}
+
+/*============================= @media =============================*/
+
+/*Mobile*/
+@media (min-width: 320px) {
+
+	
+	#item-menu {
+
+		background: white;
+
+	}
+
+	.divider {
+
+		background: black;
+
+	}
+
+}
+@media (min-width: 320px) and (max-width: 768px) {
+
+	.img-mec {
+
+		margin-top: 85px;
+	}
+
+	.texto-capa h1 {
+
+		font-size: 3em;
+	}
+
+	#post-facebook iframe {
+
+		width: 315px;
+		height: 300px;
+
+		margin-top: 12px;
+		margin-bottom: 10px;
+		overflow:hidden;
+
+	}
+
+	#primeiro-bloco-avisos {
+
+		margin-left: calc(100% / 3);
+	}
+
+	#texto-avisos-importantes {
+
+		font-size: 2.25em;
+	}
+	#texto-subtitulo-avisos {
+
+		font-size: 1.4em;
+	}
+	
+}
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+	#texto-avisos-importantes {
+
+		font-size: 3em;
+	}
+	#texto-subtitulo-avisos {
+
+		font-size: 2em;
+	}
+
+	.texto-capa p {
+
+		font-size: 2.6em;
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+
+	#texto-borda h3 {
+
+		font-size: 2em;
+	}
+
+}
+
+/*Desktop*/
+@media (min-width: 1200px) {
+
+	#texto-avisos-importantes {
+
+		font-size: 3.6em;
+	}
+	#texto-subtitulo-avisos {
+
+		font-size: 2.6em;
+	}
+}
+
+/*============================= Keyframes =============================*/
+
+@keyframes exibir {
+  0% { 
+  	opacity: 0;
+  	
+  }
+  100% { 
+  	opacity: 1;
+  	
+  }
+}
+
+/*============================= Tipografia =============================*/
+h1 {
+
+	font-size: 50px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2 {
+
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+
+	font-size: 20px;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+}
+
+#rodape h4 {
+
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 12px;
+}
+
+#servicos h2 {
+
+	color: #FF4500;
+	margin: 3px;
+
+}
+#servicos h3 {
+
+	color: #FF4500;
+
+
+}
+
+#texto-titulo-segunda-parte h3 {
+	
+	color: #FFF;
+	font-size: 2.25em;
+
+}
+
+
+
+
+#primeiro-bloco-avisos h4, #primeiro-bloco-avisos a {
+
+	color: #333333;
+	font-family: cursive;
+	font-size: 1.20em;
+	font-weight: 700;
+	letter-spacing: 0.08em;
+	
+}
+
+#primeiro-bloco-avisos p {
+
+	
+	font-family: 'Merriweather Sans Light', Arial, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 1em;
+	color: #414141;
+}
+
+.texto-footer-info {
+
+	font-weight: 800;
+	color: #FFF;
+	font-size: 12px;
+	margin: 5px 10px 5px 0px;
+	border: 1px solid orange;
+	display: inline-block;
+	text-align: center;
+}
+

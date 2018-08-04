@@ -1,0 +1,30 @@
+html {
+
+
+}
+body {
+
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-------------*\
+	CABEÇALHO
+\*-------------*/
+.layout-cabecalho {
+
+	height: 60px;
+	border-bottom: 1px solid #ccc;
+}
+	.layout-cabecalho img {
+
+		margin-top: 15px;
+	}
+
+/*-------------*\
+	CHAMADA
+\*-------------*/
+.chamada {
+
+	/*background-color: #2283c9;*/
+}
